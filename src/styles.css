@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --blue-partini: rgb(10,73,108);
+    --hover-color: rgba(255, 130, 0, 165);
+    --selected-color: rgba(255, 130, 0, 255);
+    --card-home-hover: #C3C3C3;
+    --card-home-bg: #e5e5e5;
+}

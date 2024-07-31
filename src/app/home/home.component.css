@@ -1,0 +1,62 @@
+.carrossel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 80vh;
+  }
+  
+  .carrossel {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    width: 800px; /* Adjust the width as needed */
+  }
+  
+  .carrossel-item {
+    min-width: 200px; /* Adjust the width of the cards as needed */
+    margin: 0 10px;
+  }
+  
+  .carrossel-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .carrossel-button:disabled {
+    background-color: #cccccc;
+  }
+  
+  .card {
+    background-color: var(--card-home-bg);
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card:hover{
+    background-color: var(--card-home-hover);
+    cursor: pointer;
+  }
+  .card:focus{
+    background-color: var(--blue-partini);
+  }
+  
+  .card-img {
+    height: 300px;
+    width: 200px;
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+  }
+  
+  .card-logo {
+    width: 100%;
+    margin-top: 20px;
+  } 
+  

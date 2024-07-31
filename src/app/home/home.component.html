@@ -1,0 +1,12 @@
+<div class="carrossel-container">
+    <button class="carrossel-button" (click)="moveLeft()">&#9664;</button>
+    <div class="carrossel">
+        <div class="carrossel-item" *ngFor="let item of visibleItems">
+            <div class="card">
+                <img class="card-img" src="../assets/imgs predios/predio-{{item}}.jpg" alt="">
+                <img class="card-logo" src="../assets/imgs logos/logo-{{item}}.png" alt="">
+            </div>
+        </div>
+    </div>
+    <button class="carrossel-button" (click)="moveRight()">&#9654;</button>
+</div>

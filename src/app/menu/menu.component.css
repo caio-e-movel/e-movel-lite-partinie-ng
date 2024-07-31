@@ -1,0 +1,12 @@
+.menu__item{
+    background-color: var(--blue-partini);
+    color: #fff;
+    width: 130px;
+}
+.menu__item:hover{
+    cursor: pointer;
+    background-color: var(--hover-color);
+}
+.menu__item:focus{
+    background-color: var(--selected-color);
+}
