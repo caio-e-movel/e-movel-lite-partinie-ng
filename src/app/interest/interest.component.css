@@ -24,27 +24,29 @@ h2 {
   position: relative;
 }
 
-.form-group input:focus, .form-group input:valid{
+.form-group input:focus, .form-group input:valid,
+.form-group textarea:focus, .form-group textarea:valid {
   padding-left: 20px;
 }
-.form-group input:focus ~ label, .form-group input:valid ~ label{
+
+.form-group input:focus ~ label, .form-group input:valid ~ label,
+.form-group textarea:focus ~ label, .form-group textarea:valid ~ label {
   translate: 0 -34px;
   scale: 0.825;
   transition-duration: 0.3s;
 }
 
-.form-control{
+.form-control {
   border: solid 2px var(--blue-partini);
 }
 
 .form-info {
-  
   transition: 0.3s;
   padding-left: 100px;
   border-radius: 27px;
 }
 
-.form-info + label{
+.form-info + label {
   position: absolute;
   display: grid;
   place-items: center;

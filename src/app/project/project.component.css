@@ -43,4 +43,31 @@ img {
 .modal-content.bg-dark {
     background-color: #343a40;
     color: white;
-  }
+}
+
+.tech-details {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.tech-column {
+    width: 30%;
+}
+
+.tech-column h5 {
+    color: #dd6b20;
+    /* A cor laranja utilizada na imagem */
+}
+
+.tech-column p {
+    margin: 5px 0;
+}
+
+.modal-header button{
+    color: #fff;
+}
+
+.modal-content{
+    background-image: url('../assets/imgs fundo/fundo2.jpg');
+}
