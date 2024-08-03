@@ -1,8 +1,46 @@
-.project-container{
+.project-container {
     height: 80vh;
     display: flex;
     justify-content: center;
+    margin: 20px;
+    position: relative;
 }
-img{
+
+img {
     height: 100%;
 }
+
+.project-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30%;
+}
+
+.project-bg {
+    position: relative;
+    text-align: center;
+}
+
+.project-bg-btns {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-btn {
+    background-color: var(--selected-color);
+    color: #fff;
+    border: none;
+}
+
+.project-btn:hover {
+    background-color: var(--hover-color);
+}
+
+.modal-content.bg-dark {
+    background-color: #343a40;
+    color: white;
+  }

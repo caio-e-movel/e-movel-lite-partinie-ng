@@ -1,0 +1,59 @@
+.interest-container {
+  max-width: 600px;
+  margin: 20px auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.form-group input:focus, .form-group input:valid{
+  padding-left: 20px;
+}
+.form-group input:focus ~ label, .form-group input:valid ~ label{
+  translate: 0 -34px;
+  scale: 0.825;
+  transition-duration: 0.3s;
+}
+
+.form-control{
+  border: solid 2px var(--blue-partini);
+}
+
+.form-info {
+  
+  transition: 0.3s;
+  padding-left: 100px;
+  border-radius: 27px;
+}
+
+.form-info + label{
+  position: absolute;
+  display: grid;
+  place-items: center;
+  transform-origin: 0% 0%;
+  pointer-events: none;
+  top: 0px;
+  height: 40px;
+  width: 100px;
+  border-radius: 27px;
+  background: var(--blue-partini);
+  color: #fff;
+}

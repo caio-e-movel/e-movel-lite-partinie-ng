@@ -1,4 +1,66 @@
 <section class="project-container">
     <img src="../assets/imgs predios/predio-natto.jpg" alt="">
-    <img src="../assets/imgs fundo/fundo2.jpg" alt="">
-</section>
+    <div class="project-bg">
+      <img src="../assets/imgs fundo/fundo2.jpg" alt="">
+      <div class="project-bg-btns">
+        <button class="project-btn w-100 m-2 rounded" data-bs-toggle="modal" data-bs-target="#diferenciais-modal">DIFERENCIAIS</button>
+        <button class="project-btn w-100 m-2 rounded" data-bs-toggle="modal" data-bs-target="#ficha-tecnica-modal">FICHA TÉCNICA</button>
+        <button class="project-btn w-100 m-2 rounded" data-bs-toggle="modal" data-bs-target="#empreendedores-modal">EMPREENDEDORES</button>
+      </div>
+    </div>
+    <img class="project-logo" src="../../assets/imgs logos/logo-project-natto.png" alt="">
+  </section>
+  
+  <!-- Modal Empreendedores -->
+  <div class="modal fade" id="empreendedores-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Empreendedores</h1>
+          <button type="button" class="bg-dark fs-5" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+        </div>
+        <div class="modal-body row d-flex align-items-center">
+          <div class="col-lg-1">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#api-contatos-modal"><i class="bi bi-caret-left-fill"></i></button>
+          </div>
+          <div class="col-lg-10 d-flex justify-content-center flex-column align-items-center">
+            <h4>Tecnologias utilizadas:</h4>
+            <!-- Conteúdo dos Empreendedores -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal Ficha Técnica -->
+  <div class="modal fade" id="ficha-tecnica-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ficha Técnica</h1>
+          <button type="button" class="bg-dark fs-5" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+        </div>
+        <div class="modal-body">
+          <h4>Detalhes da Ficha Técnica:</h4>
+          <!-- Conteúdo da Ficha Técnica -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal Diferenciais -->
+  <div class="modal fade" id="diferenciais-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Diferenciais</h1>
+          <button type="button" class="bg-dark fs-5" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+        </div>
+        <div class="modal-body">
+          <h4>Diferenciais do Projeto:</h4>
+          <!-- Conteúdo dos Diferenciais -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
